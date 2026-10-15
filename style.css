@@ -1,0 +1,96 @@
+
+body {
+    font-family: "Courier New", monospace;
+    margin: 0;
+    background-color: #0a1a3a;
+    color: #dbe8ff;
+}
+
+
+.menu {
+    background-color: #06122b;
+    padding: 14px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.menu a {
+    color: #6fb1ff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+/* Sulod */
+.wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.home {
+    padding: 50px 0 30px 0;
+}
+
+.home h1 {
+    color: #6fb1ff;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #6fb1ff;
+}
+
+
+.part {
+    border-left: 4px solid #2f7de1;
+    padding: 10px 0 10px 20px;
+    margin: 30px 0;
+}
+
+h2 {
+    color: #6fb1ff;
+}
+
+h3 {
+    color: white;
+}
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;       
+}
+
+.box {
+    background-color: #12295a;
+    border: 1px solid #2f7de1;
+    padding: 15px;
+    margin: 8px;
+    width: 45%;
+    box-sizing: border-box;
+}
+
+a {
+    color: #6fb1ff;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #8aa6d6;
+}
+
+
+@media (max-width: 700px) {
+    .box {
+        width: 100%;
+    }
+}
